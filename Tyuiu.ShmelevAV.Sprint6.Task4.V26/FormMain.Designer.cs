@@ -28,10 +28,10 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea2 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend2 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series2 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            System.Windows.Forms.DataVisualization.Charting.Title title2 = new System.Windows.Forms.DataVisualization.Charting.Title();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea1 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend1 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series1 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.Title title1 = new System.Windows.Forms.DataVisualization.Charting.Title();
             groupBoxCondition_SAV = new GroupBox();
             labelConditionText_SAV = new Label();
             groupBoxInput_SAV = new GroupBox();
@@ -176,26 +176,26 @@
             // 
             // chartDiagram_SAV
             // 
-            chartArea2.Name = "ChartArea1";
-            chartDiagram_SAV.ChartAreas.Add(chartArea2);
-            legend2.Name = "Legend1";
-            chartDiagram_SAV.Legends.Add(legend2);
+            chartArea1.Name = "ChartArea1";
+            chartDiagram_SAV.ChartAreas.Add(chartArea1);
+            legend1.Name = "Legend1";
+            chartDiagram_SAV.Legends.Add(legend1);
             chartDiagram_SAV.Location = new Point(258, 103);
             chartDiagram_SAV.Name = "chartDiagram_SAV";
-            series2.ChartArea = "ChartArea1";
-            series2.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Spline;
-            series2.IsVisibleInLegend = false;
-            series2.Legend = "Legend1";
-            series2.Name = "Series1";
-            chartDiagram_SAV.Series.Add(series2);
+            series1.ChartArea = "ChartArea1";
+            series1.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Spline;
+            series1.IsVisibleInLegend = false;
+            series1.Legend = "Legend1";
+            series1.Name = "Series1";
+            chartDiagram_SAV.Series.Add(series1);
             chartDiagram_SAV.Size = new Size(664, 346);
             chartDiagram_SAV.TabIndex = 6;
             chartDiagram_SAV.Text = "chart1";
-            title2.Font = new Font("Microsoft Sans Serif", 12F, FontStyle.Bold, GraphicsUnit.Point, 204);
-            title2.ForeColor = Color.Blue;
-            title2.Name = "График функции";
-            title2.Text = "График функции";
-            chartDiagram_SAV.Titles.Add(title2);
+            title1.Font = new Font("Microsoft Sans Serif", 12F, FontStyle.Bold, GraphicsUnit.Point, 204);
+            title1.ForeColor = Color.Blue;
+            title1.Name = "График функции";
+            title1.Text = "График функции";
+            chartDiagram_SAV.Titles.Add(title1);
             // 
             // FormMain
             // 
