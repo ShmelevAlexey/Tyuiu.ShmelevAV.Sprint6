@@ -14,7 +14,7 @@ namespace Tyuiu.ShmelevAV.Sprint6.Task6.V13.Lib
                 string[] lastStr = strPath[i].Split(' ');
                 if (lastStr.Length >= 2)
                 {
-                    res += space + lastStr[lastStr.Length - 2];
+                    res += lastStr[lastStr.Length - 2] + space;
                     
                 }
             }
