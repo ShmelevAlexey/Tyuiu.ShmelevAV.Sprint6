@@ -6,17 +6,17 @@ namespace Tyuiu.ShmelevAV.Sprint6.Task6.V13.Lib
     {
         public string CollectTextFromFile(string str, string path)
         {
-            string res = "";
+            str = "";
             string[] strPath = File.ReadAllLines(path);
             for (int i = 0; i < strPath.Length; i++)
             {
                 string[] lastStr = strPath[i].Split(' ');
                 if (lastStr.Length >= 2)
                 {
-                    res += lastStr[lastStr.Length - 2];
+                    str += lastStr[lastStr.Length - 2];
                 }
             }
-            return res;
+            return str;
         }
     }
 }
