@@ -7,13 +7,15 @@ namespace Tyuiu.ShmelevAV.Sprint6.Task6.V13.Lib
         public string CollectTextFromFile(string path)
         {
             string res = "";
+            string space = " ";
             string[] strPath = File.ReadAllLines(path);
             for (int i = 0; i < strPath.Length; i++)
             {
                 string[] lastStr = strPath[i].Split(' ');
                 if (lastStr.Length >= 2)
                 {
-                    res += lastStr[lastStr.Length - 2];
+                    res += space + lastStr[lastStr.Length - 2];
+                    
                 }
             }
             return res;

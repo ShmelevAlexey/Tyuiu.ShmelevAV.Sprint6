@@ -24,7 +24,7 @@ namespace Tyuiu.ShmelevAV.Sprint6.Task6.V13
 
         private void buttonStart_SAV_Click(object sender, EventArgs e)
         {
-            textBoxOutput_SAV.Text = ds.CollectTextFromFile(str, path);
+            textBoxOutput_SAV.Text = ds.CollectTextFromFile(path);
         }
 
         private void buttonHelp_SAV_Click(object sender, EventArgs e)
