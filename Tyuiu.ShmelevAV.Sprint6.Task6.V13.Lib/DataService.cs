@@ -15,7 +15,7 @@ namespace Tyuiu.ShmelevAV.Sprint6.Task6.V13.Lib
                 if (lastStr.Length >= 2)
                 {
                     res += lastStr[lastStr.Length - 2] + space;
-                    res.TrimEnd();
+                    res.Trim();
                 }
             }
             return res;
